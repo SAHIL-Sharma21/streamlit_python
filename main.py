@@ -1,6 +1,8 @@
-def main():
-    print("Hello from stream-lit!")
+import streamlit as st
 
+st.title("Hello from streamlit app")
+st.subheader("Brewed with streamlit")
+st.text("Welcome to streamlit application with python, and interactive app")
 
-if __name__ == "__main__":
-    main()
+st.write("Choose your favourite game")
+
